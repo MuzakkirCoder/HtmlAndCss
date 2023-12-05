@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>grida ishlash </title>
+<style>
+	*{
+		margin: 0;
+		padding: 0;
+		box-sizing: border-box;
+	}
+.grid-container{
+	display: grid;
+	grid-template-columns: 20% 1fr .5fr 1fr;
+	grid-template-rows: 80px 70px 500px 500px 100px;
+	grid-gap: 10px;
+	grid-template-areas:
+	"header header header header"
+	"aside nav nav nav"
+	"aside main main main"
+	"aside content1 content2 content3"
+	"footer footer footer footer";
+
+}
+header{
+	width: 100%;
+	background: blue;
+	grid-area: header;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0 20px;
+}
+nav{
+	background: orange;
+	grid-area: nav;
+}
+
+aside{
+	background: red;
+	grid-area: aside;
+}
+
+main{
+	background: yellow;
+	grid-area: main;
+}
+
+.content1{
+	background: green;
+	grid-area: content1;
+
+}
+
+.content2{
+	background: green;
+	grid-area: content2;
+}
+
+.content3{
+	background: green;
+	grid-area: content3;
+}
+footer{
+	background: black;
+	grid-area: footer;
+}
+
+@media (min-width320px)and (max-width767px) {
+	aside{
+		display: none;
+	}
+.grid-container{
+grid-template-areas: 
+	"header header header header"
+	"aside nav nav nav"
+	"aside main main main"
+	"aside content1 content2 content3"
+	"footer footer footer footer";
+
+}
+	
+}
+
+</style>
+
+
+
+</head>
+<body>
+	<div class="grid-container">
+		<header>
+			<h1 class="Logo">Logo</h1>
+			<button>Kirish</button>
+		</header>
+
+		<nav>navigator</nav>
+
+		<aside>Sidebar</aside>
+
+		<main>Main</main>
+
+		<div class="content1"></div>
+		<div class="content2"></div>
+		<div class="content3"></div>
+		<footer>Fotter</footer>
+	</div>
+</body>
+</html>

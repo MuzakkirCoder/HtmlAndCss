@@ -1,0 +1,306 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{
+	display: flex;
+}
+
+.aside{
+	display: inline-block;
+	position: sticky;
+    top: 0;
+    bottom: 0;
+}
+
+aside{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 300px;
+	height: 1088px;
+	background-color: skyblue;
+    list-style: none;
+    position: sticky;
+
+}
+
+aside > ul, li{
+	display: flex;
+	flex-direction: column;
+	font-size: 25px;
+	gap: 40px;
+}
+
+.container{
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	width: 90%;
+	height: 70px;
+	background-color: orange;
+}  
+
+.navlist button{
+	width: 80px;
+	background-color: #E6E9F4;
+	border-color: #Faf204;
+	color: blue;
+	box-shadow: 0 10px 10px 0 white;
+	margin: 5px;
+	border-radius: 7px;
+}
+
+.navlist > ul,li{
+     display: flex;
+     gap: 40px;
+     justify-content: center;
+     padding-top: 5px;
+}
+
+select{
+	width: 130px;
+	height: 35px;
+	margin: 5px 0;
+	font-size: 20px;
+	color: blue;
+	text-transform: capitalize;
+    border-radius: 8px;
+     box-shadow: 0 10px 10px 6px white;
+}
+
+.boh{
+	padding-left: 6px;
+}
+
+.boxi{
+	display: flex;
+	position: absolute;
+	z-index: 1;
+	width: 95%;
+	height: 200px;
+ 	background-color: orange;
+    box-shadow: 0 10px 10px 6px white;
+    animation-name: lenta;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+
+.boxi img{
+	width: 100%;
+	height: 100%;
+} 
+
+/* @keyframes lenta{
+    0%,10%{margin-left: 0;}
+   12%,22%{margin-left: -100%;}
+   24%,34%{margin-left: -200%;}
+   36%,46%{margin-left: -300%;}
+   48%,58%{margin-left: -400%;}
+   60%,70%{margin-left: -300%;}
+   72%,82%{margin-left: -200%;}
+   84%,94%{margin-left: 100%}
+   100%{margin-left: 0}
+ }*/
+ 
+.content{
+	display: flex;
+	flex-wrap: wrap;
+	gap: 40px;
+	justify-content: space-evenly;
+	padding: 40px;
+}
+
+.box{
+	width: 350px;
+	height: 350px;
+	background-color: aqua;
+    border: 2px solid black;
+}
+
+.box:nth-child(2) {
+	border: 2px dashed black;
+}
+.box:nth-child(3) {
+	border: 2px dotted black;
+}
+.box:nth-child(4) {
+	border: 4px outset wheat ;
+}
+.box:nth-child(5) {
+	border: 5px double ;
+}
+.box:nth-child(6) {
+	border: 6px inset;
+}
+
+.box img{
+	width: 100%;
+	height: 60%;
+
+}
+
+.box h2{
+	width: 60px;
+	height: 40px;
+	background-color: gold;
+	display: inline-block;
+    margin: 10px;
+    z-index: 1;
+    position: absolute;
+}
+
+.box h3{
+	display: inline-block;
+	width: 60px;
+	height: 40px;
+	background-color: gold;
+	position: absolute	;
+    left: 66%;
+    font-size: 25px;
+    margin:10px 0;
+    z-index: 1;
+}   
+
+.box h4{
+display: inline-block;
+	width: 60px;
+	height: 40px;
+	background-color: gold;
+	position: absolute;
+    font-size: 25px;
+    z-index: 1;
+    top: 240px;
+    right: 20%;
+    margin: 10px;
+}
+
+.box h5{
+	display: inline-block;
+	width: 60px;
+	height: 40px;
+	background-color: gold;
+	position: absolute;
+    left: 23%;
+    margin: 10px ;    
+    font-size: 25px;
+}
+
+.box h6{
+	display: inline-block;
+	width: 60px;
+	height: 40px;
+	background-color: gold;
+	position:absolute;
+    right: 29%;
+    top: 630px;
+    font-size: 25px;
+    margin:5px 10px;
+}
+
+.box h1{
+	display: inline-block;
+	width: 60px;
+	height: 40px;
+	background-color: gold;
+	position:absolute;
+	color: black;
+	top: 490px;
+	right: 3%;
+    font-size: 25px;
+    margin:5px 10px;
+}
+
+
+
+h1{
+	width: 50px;
+	height: 40px;
+	background-color: gold;
+	position:fixed;
+	font-size: 20px	;
+	color: red;
+	display: inline-block;
+	bottom: 20px;
+	right: 15px;
+}
+
+.box p{
+	font-size: 20px;
+	text-align: justify;
+}
+
+.button{
+	display: flex;
+	justify-content: center;
+	padding-top: 5px;
+	
+	
+}
+
+button{
+	width: 150px;
+	height: 35px;
+	font-size: 20px;
+	border-color: white;
+	border-radius: 8px;
+	text-transform: capitalize;
+	transition-duration: 3s;
+	transition-delay: 2s;
+	transition-property: all;
+}
+
+button:hover{
+	transition-timing-function:linear ;
+	background-color: orange;
+/*	background-image: linear-gradient( to right, red,fuchsia,blue,aqua );*/
+}
+
+
+
+footer{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 40px;
+	padding: 5px  35px;
+	width: 100%;
+	height: 200px;
+	color: gold;
+	background-color: #0F0F5C;
+	position: absolute;
+    top: 130%;
+    right: 0;
+}
+
+
+.bottom{
+	display: flex;
+	color: white;
+	border-color: white;
+}	
+
+
+
+@media(max-width:500px){
+	.navlist{
+		display: none;
+		background-color: white;
+	}
+
+	.container{
+		background-color: white;
+	}
+
+	.aside{
+		display: none;
+	}
+
+	footer{
+		display: none;
+	}
+
+}
+

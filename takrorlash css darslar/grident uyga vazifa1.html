@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+
+	<style>
+	 
+     *{
+       margin: 0;
+       padding: 0;ccc
+       box-sizing: border-box;
+     }
+
+     .main{
+     	width: 100%;
+     	height: 100vh;
+     	background: orange;  
+     	background-image: repeating-linear-gradient( radial-gradient red,blue,red,fuchsia,green);
+     }
+
+     .main:hover{
+     	background-image: radial-gradient( red,blue,red,fuchsia,green);
+     	background-image: radial-gradient(blue,red,fuchsia,white,green,yellow,red,green);
+     }
+
+     @keyframes main{
+
+     	0%{
+     		margin-left: 0;
+     	}
+
+     	25%{
+     		margin-left: 0%;
+     		background-image: radial-gradient(blue,red,fuchsia,white,green,yellow,red,green);
+     	}
+
+     	50%{
+     	  margin-left: 0%; 
+     	  background-image: radial-gradient( red,blue,red,fuchsia,green);
+     }
+
+	</style>
+
+</head>
+<body>
+	<div class="main"></div>
+</body>
+</html>

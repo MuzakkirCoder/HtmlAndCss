@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Animatsiya</title>
+	<style>
+		*{
+			margin: 0;
+			padding: 0;
+			box-sizing: border-box;
+		}
+    
+
+     .content{
+     	width: 400px;
+     	height: 400px;
+     	background: red;
+/*     	border-radius: 100%;    */
+     	animation-name: content;
+     	animation-duration: 4s;
+     	animation-iteration-count: 3;
+/*     	animation-direction: reverse;*/
+/*     	animation-fill-mode: forwards; borgan joyida qotadi animatsiya 2 marta takrorlangandan keyn*/
+/*      animation-timing-function: ease-in-out; sekin tez sekin  */
+/*      animation-timing-function: ease-out; tez boshanib sekin tugaydi*/
+/*      animation-timing-function: steps(4,start) ;*/
+/*      animation-timing-function: linear ;bir xil xarakatlanadi*/
+/*      animation-play-state: running;*/
+/*      animation-play-state: paused;*/
+/*        animation: name duration timing-function delay iteration-count direction fill-mode;*/
+
+
+        }
+
+        .content:hover{
+          animation-play-state: running;
+        }
+
+     @keyframes content{
+      
+     /* from{
+      	margin-left: 0px;
+      }
+
+      to{
+      	margin-left: 400px;
+      }
+*/
+      0%{
+      	margin-left: 0%;
+      }
+
+      50%{
+      	margin-left: 300px;
+      	margin-top: 300px;
+      	background-color: blue;
+      	box-shadow: 10px 10px 10px indigo;
+        
+      }
+
+      75%{
+      	margin-left: 300px;
+      	margin-top: 300px;
+      	background-color: green ;
+      	border-radius: 100%;
+      }
+
+      100%{
+      	margin-left: 300px;
+      	margin-top: 300px;
+      	background-color: gold;
+      	border-radius: 50%;
+      }
+      
+
+     }
+	</style>
+</head>
+<body>
+   
+    	<div class="content"></div>
+    
+</body>
+</html>

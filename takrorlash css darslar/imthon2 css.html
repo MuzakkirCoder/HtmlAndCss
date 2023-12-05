@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+
+    <style>
+    	
+      *{
+      	margin: 0;
+      	padding: 0;
+      	box-sizing: border-box;
+      }
+
+      main{
+      	width: 100%;
+      	height: 100vh;
+      	display: flex;
+      	transition: 5s;
+      	align-items: center;
+      	justify-content: center;
+      	background-image: linear-gradient( to left bottom, #00b1ff,#00b1ff,#00b1ff,#3c00ff);
+      }
+
+
+      .container:hover{
+      	display: flex;
+      	flex-direction: column;
+      	align-items: flex-end;
+      	width: 450px;
+      	height: 500px;
+      	background-color: aqua;
+      	border-radius: 20px;
+      	
+      }
+
+       .type{
+      	display: flex;
+      	justify-content: center;
+      	color: #FDFBFB;
+      }
+
+    
+
+      .top h2{
+        display:flex;
+        align-content: center;
+        justify-content: center;
+       	color:white;       
+      }
+
+      .container {
+      	padding:  0 15px;
+ 
+      }
+
+
+       .content{
+      	display: flex;
+      	flex-direction: column;
+        align-items: center;
+        gap: 10px;
+      	border-radius: 20px;
+      	padding: 30px 0;
+      	width: 450px;
+      	height: 500px;
+      	background-image: linear-gradient( to left bottom, blue,blue, blue,#ff00ff94);
+      }
+
+      .content h1{
+      	text-align: center;
+      	padding-top: 15px;
+      	color: white;
+      }
+
+      .content li:nth-of-type(1){
+      	padding-right: 237px;
+      }
+   
+      .content li{
+      	display: flex;
+      	padding-right: 200px;
+      	padding-top: 10px;
+      	font-size: 25px;
+      	color: white;
+      	text-decoration: none;
+      }
+
+
+
+      .content > input{
+      	font-size: 20px;	
+        background: #00ffffe0;
+        width: 300px;
+        height: 40px;
+        color: white;
+
+      }
+
+      .input{
+      	display: flex;
+      	padding-right: 160px;
+      	font-size: 20px;
+      	color: white;
+      	gap: 5px;
+      	padding-top: 10px;
+      }
+
+      .input input{
+      	width: 20px;
+      }
+
+      .buttom button{
+      	width: 300px;
+      	height: 40px;
+      	font-size: 20px;
+      	background-image: linear-gradient( to left bottom, aquamarine,blue,#7fa1ff);
+      	border-color: #7fa1ff;
+      	color: white;
+        
+      }
+
+      .buttom h3{
+      	display: flex;
+      	justify-content: center;
+      	color: white;
+      	font-size: 20px;
+      	padding-top: 15px;
+
+
+      }
+
+      .button h3{
+      	display: flex;
+      	justify-content: center;
+      	color: white;
+      	padding-top: 20px;
+      }
+
+
+    </style>
+    
+
+</head>
+<body>
+	<main>
+		<div class="container">
+			<div class="container1">
+        <div class="top"><h2>Back to Home</h2></div>
+			<div class="content">
+				 <h1>SOFASH</h1>
+          <li>Email</li>
+				  <input type="Email" placeholder="Email id" >
+				  <li>Password</li>
+				  <input type="Password" placeholder="Password">
+				  <div class="input">
+				  <input  type="checkbox">Remember me
+				  </div>
+
+				  <div class="buttom">
+				  	<button>Sign in</button>
+				  	<h3>Forgot your password?</h3>
+				  </div>
+			</div>
+   <div class="button"><h3>Don't have an account? Creata an account</h3>
+			</div>
+		</div>
+				 
+		</div>
+	</main>
+</body>
+</html>

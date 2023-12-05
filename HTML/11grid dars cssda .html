@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+
+	<style>
+		.grid-container{
+			width: 100%;
+			height: 100vh;
+			background: wheat;
+			display: grid;
+			grid-template-columns: 1fr 1fr 1fr 1fr;
+			grid-template-rows:   1fr 1fr 1fr;
+		}
+
+		.hero{
+			background: red;
+			grid-column: 1/3;
+			display: grid;
+			place-items: center center;
+		}
+
+		.hero2{
+			background: orange;
+			grid-column: 3/5;
+		}
+
+		.hero3{
+			background: yellow;
+			grid-column: 1/2;
+		}
+		.extra-content3{
+			background: blue;
+			grid-column: 2/4;
+		}
+		.extra-content4{
+			background: black;
+			grid-column: 4/5;
+		}
+		.extra-content5{
+			background: gray;
+			grid-column: 1/2;
+		}
+		.extra-content6{
+			background: burlywood;
+			grid-column: 2/4;
+		}
+
+      .extra-content7{
+      	background: orchid;
+      	grid-column: 4/5;
+      }
+
+	</style>
+</head>
+<body>
+	<div class="grid-container">
+	<div class="hero">Hero</div>
+	<div class="hero2">Hero2</div>
+	<div class="hero3">hero3</div>
+	<div class="extra-content3">extra content3</div>
+	<div class="extra-content4">extra4</div>
+	<div class="extra-content5">extra5</div>
+	<div class="extra-content6">extra6</div>
+	<div class="extra-content7">ex6</div>
+
+
+
+		
+	</div>
+</body>
+</html>

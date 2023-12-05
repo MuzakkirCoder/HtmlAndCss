@@ -1,0 +1,16 @@
+.animatsia{
+  width: 200px;
+  height: 200px;
+  background-color: red;
+  animation-name: animatsia;
+   animation-duration: 3s;
+}
+
+
+@keyframes animatsia {
+ 0%   {background-color: red;}
+ 25%  {background-color: yellow;}
+ 50%  {background-color: blue;}
+ 100% {background-color: green;}
+
+}

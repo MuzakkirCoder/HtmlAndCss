@@ -1,0 +1,146 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+    
+
+        .grid-container {
+            display:grid;
+            grid-template-columns: 200px 1fr;
+            grid-template-rows:20% 80%;
+
+        }
+
+        header {
+            grid-column:1/4;
+            grid-row:1/2;
+            background-color: blue;
+            display:flex;
+            justify-content: space-around;
+            align-items: center;
+            color:white;
+            gap:20px;
+
+        }
+        header .logo {
+            font-size: 30px;
+        }
+        header .nav-list {
+            display: flex;
+            gap:30px;
+        }
+
+        aside {
+            grid-column:1/2;
+            grid-row:2/4;
+            background-color: green;
+        }
+
+        aside ul {
+            display: flex;
+            gap:20px;
+            flex-direction: column;
+        }
+
+        main {
+            grid-column:2/4;
+            grid-row: 2/3;
+            background-color: gold;
+        }
+
+        footer {
+            grid-column: 1/4;
+            grid-row:4/4;
+            background-color: darkorange;
+            display: flex;
+            text-align: center;
+            
+        }
+
+       
+    </style>
+</head>
+
+<body>
+
+    <div class="grid-container">
+        <header>
+            <div class="logo">LOGO</div>
+            <ul class="nav-list">
+                <li>Erkaklar kiyimi</li>
+                <li>Ayollar kiyimi</li>
+                <li>Yosh bolalar kiyimi</li>
+                <li>Electronika jixozlar</li>
+                <li>Telefonlar</li>
+            </ul>
+        </header>
+
+
+        <aside class="sidebar">
+            <ul class="category">
+                <li>Erkaklar kiyimi</li>
+                <li>Ayollar kiyimi</li>
+                <li>Yosh bolalar kiyimi</li>
+                <li>Electronika jixozlar</li>
+                <li>Telefonlar</li>
+            </ul>
+        </aside>
+
+        <main>
+            <section class="gallery1">
+                <div class="card">card1</div>
+                <div class="card">card2</div>
+                <div class="card">card3</div>
+            </section>
+
+            <section class="gallery2">
+                <div class="card">card1</div>
+                <div class="card">card2</div>
+                <div class="card">card3</div>
+            </section>
+        </main>
+
+        <footer>
+            <div class="box">
+                <h3 class="title">Sarlavha</h3>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque quibusdam eum distinctio maiores illo
+                    aliquam. Quo, ex necessitatibus suscipit sequi repudiandae quos, perspiciatis quasi, et sapiente
+                    earum quaerat nesciunt neque!
+                </p>
+            </div>
+            <div class="box">
+                <h3 class="title">Sarlavha</h3>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem architecto minima animi nisi nemo
+                    quod natus, cumque incidunt culpa hic laudantium, ex consectetur sit reiciendis sint pariatur minus
+                    consequuntur rerum?
+                </p>
+            </div>
+            <div class="box">
+                <h3 class="title">Sarlavha</h3>
+                <p>
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Obcaecati suscipit consectetur cupiditate
+                    totam natus iste nulla quisquam rerum odio debitis velit unde nemo, veniam sapiente architecto sequi
+                    quo! Placeat, fugit!
+                </p>
+            </div>
+        </footer>
+
+    </div>
+
+</body>
+
+</html>

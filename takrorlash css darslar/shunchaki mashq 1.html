@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+
+
+	<style>
+		table{
+			width: 500px;
+			height: 200px;
+			border: 5px solid ;
+			border-color: red blue green orange;
+			text-transform: capitalize;
+			text-align: center;
+			background: #00ffe573;
+		}
+
+    table th{
+    	border: 1px solid blue;
+    	background: yellow;
+
+    }
+    table tbody td{
+    	border: 1px solid blue;
+    }
+
+    table tbody select{
+    	background: yellow;
+    }
+
+		</style>
+</head>
+<body>
+	<table>
+		<thead>
+			<tr>
+				<th>ism</th>
+				<th>Viloyat</th>
+				<th>Egallagan o'rinlar</th>
+				<th>musobaqa turlari</th>
+				<th>bo'yi</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td>dilshod</td>
+				<td rowspan="2">
+					<select>
+						<option value="Namangan">Namangan</option>
+						<option value="toshkent">Toshent</option>
+						<option value="Fargona">farg'ona</option>
+						<option value="Andijon">Andijon</option>
+						<option value="Samarqand">Samarqand</option>
+						<option value="Xorazim">Xorazim</option>
+						<option value="xiva">Xiva</option>
+						<option value="navoi">Navoi</option>
+						<option value="Jizzah">Jizzah</option>
+						<option value="buhoro">Buhoro</option>
+						<option value="surhandaryo">SurhanDaryo</option>
+						<option value="termez">Termiz</option>
+					</select>
+				</td>
+                 <td>1</td>
+                 <td>100 metirga yugurish</td>
+                 <td>
+                 	<select name="boyi">
+              	<option value="120">120</option>
+              	<option value="125">125</option>
+              	<option value="135">136</option>
+              	<option value="140">140</option>
+              	<option value="150">150</option>
+              	<option value="155">155</option>
+              	<option value="160">160</option>
+              	<option value="170">170</option>
+              	<option value="180">180</option>
+              	<option value="185">185</option>
+              	<option value="190">190</option>
+              	<option value="200">200</option>
+              </select>
+                 </td>
+              
+                 
+
+			</tr>
+
+			<tr>	
+			<td>sarvar</td>
+			<td>2</td>
+			<td>suzish</td>
+			<td>165</td>
+			</tr>
+
+			<tr>
+			<td>javlon</td>
+			<td rowspan="3">termez</td>
+			<td>1</td>
+			<td>tosh ko'tarish</td>
+			<td>174</td>
+             </tr>
+
+             <tr>
+			<td>suxrob</td>
+			<td>1</td>
+			<td>veloseped</td>
+			<td>177</td>
+			</tr>
+
+			<tr>
+			<td>nodir</td>
+			<td>3</td>
+			<td>yugurish</td>
+			<td>181</td>
+			</tr>
+             
+
+		</tbody>
+	</table>
+
+	
+
+</body>
+</html>

@@ -1,0 +1,128 @@
+/* *{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+h1{
+	padding: 20px;
+	background-color: red;
+	display: inline-block;
+	margin: 10px;
+	transition-duration: 3s;
+	transition-delay: 2s;
+	transition-property: all;
+
+}
+
+h1:hover{
+	background-color:  orange;
+	border-radius: 20px;
+
+}
+
+
+
+    div{
+	width: 200px;
+	height: 100px;
+	background-color: skyblue;
+	transition-duration: 10s;
+	font-size: 25px;
+	margin: 10px;
+	color: firebrick;
+	text-transform: capitalize;
+	text-align: center;
+	line-height: 100px;
+/*	transition-timing-function: steps(10, start) ;*/
+/*  transition-timing-function: ease;*/
+/*  transition-timing-function: linear;*/
+/*  transition-timing-function: ease-in;*/
+/*  transition-timing-function: ease-in-out;*/
+/*  transition-timing-function: ease-out;*/
+/*  transition-timing-function: steps(10,start);*/
+    
+
+
+
+
+
+.block{
+	transition-timing-function: steps(10, start);
+}
+
+.block2{
+	transition-timing-function: steps(10,end);
+}
+
+.ease{
+	transition-timing-function: ease;
+}
+
+.ease-in{
+	transition-timing-function: ease-in;
+}
+
+.ease-in-out{
+	transition-timing-function: ease-in-out;
+}
+
+.linear{
+	transition-timing-function: linear;
+} */
+
+.box{
+	width: 200px;
+	height: 220px;
+	background-color: red;
+}
+
+.cursorr{
+	cursor: alias;
+/* cursor: all-scroll;
+cursor: auto;
+cursor: cell;
+cursor: col-resize;
+cursor: context-menu;
+cursor: crosshair;
+cursor: copy;
+cursor: wait;
+cursor: initial;
+cursor: help;
+cursor: move;
+cursor: pointer;
+cursor: text;
+cursor: hand;
+cursor: none;
+cursor: progress;
+cursor: grabbing;
+cursor: not-allowed;
+cursor: vertical-text;
+cursor: initial;
+cursor: n-resize;
+cursor: no-drop;
+cursor: ne-resize;
+cursor: nwse-resize;
+cursor: ns-resize;
+cursor: nesw-resize;
+cursor: not-allowed;
+cursor: pointer;
+cursor: progress;
+cursor: zoom-in;
+cursor: none;
+cursor: crosshair;
+cursor: zoom-out;
+cursor: move;
+cursor: no-drop;
+cursor: ew-resize; */
+}
+
+
+
+
+
+
+
+
+
+

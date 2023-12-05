@@ -1,0 +1,141 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+header{
+	display: flex;
+	align-items: center;
+	padding: 10px 30px;
+	gap: 30px;
+}
+
+.box{
+	display: flex;
+	width: 830px;
+	height: 30px;
+	gap: 10px;
+	cursor: text;
+	align-items: center;
+	padding-left: 10px;
+	font-size: 15px;
+	background-color: white;
+	border-radius: 8px;
+	box-shadow: 20px 20px 20px 20px  inset #EBE2E2;
+}
+
+.logo{
+	display: flex;
+	font-size: 25px;
+	gap: 10px;
+}
+
+.navlist .list,li{
+	display: flex;
+	align-items: center;
+	text-decoration: none;
+	text-transform: capitalize;
+    font-size: 18px;
+    gap: 15px;
+}
+
+.list li:nth-child(4){
+	font-size: 25px;
+}
+
+ .img{
+	width: 50px;
+	height: 50px;
+	border-radius: 100px;
+    box-shadow: 20px 20px 20px 20px  inset #EBE2E2;
+ }
+
+ .img img{
+ 	width: 100%;
+ 	height: 100%;
+ 	border-radius: 100%;
+ }
+
+ .box1{
+ 	display: flex;
+    justify-content: center;
+ 	width: 120px;
+ 	height: 40px;
+    box-shadow: 20px 20px 20px 20px  inset #EBE2E2;
+    border-radius: 100px;
+ }
+
+ .container{
+ 	display: flex;
+ 	justify-content: space-around;
+   gap: 500px;
+ }
+
+ .container.slid h2,h5,h3{
+ 	padding-top: 35px;
+ }
+
+ .slid1{
+ 	display: flex;
+ 	align-items: center;
+ 	padding-left: 20px;
+ 	width: 370px;
+ 	height: 170px;
+ 	box-shadow: 50px 50px 50px 90px inset #EBE2E2;
+
+ }
+
+ .slid1 .child{
+ 	width: 160px;
+ 	height: 120px;
+ 	background-color: green;
+ }
+
+ .slid1 h4{
+ 	padding-left: 10px;
+ }
+
+
+ .child img{
+ 	width: 100%;
+ 	height: 100%;
+ }
+
+ .child .sear{
+ 	display: flex;
+ 	gap: 8px;
+ 	font-size: 17px;
+ 	padding-left: 25px;
+ 	width: 190px;
+ 	height: 30px;
+    box-shadow: 50px 50px 50px 90px inset #EBE2E2; 	
+    border-radius: 100%;
+ }
+
+ .slider{
+ 	display: flex;
+ 	gap: 10px;
+ 	justify-content: space-evenly;
+ 	flex-wrap: wrap;
+ 	padding-top: 50px;
+ }
+ 
+ .slider div{
+ 	width: 450px;
+ 	height: 370px;
+ 	background-color: red;
+ 	border-radius: 8px;
+ }
+
+
+  .boh::after {
+  	content: "";
+ 	position: absolute;
+ 	width: 450px;
+ 	height: 370px;
+ 	background-color:#DFD6D0;
+   border-radius: 8px;
+ }
+ 
+
